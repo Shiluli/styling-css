@@ -1,5 +1,10 @@
 h1{
     background-color: red;
+    text-indent: 100px;
+    letter-spacing: normal;
+    font-variant: small-caps;
+    border: yellow 5px dotted;
+    border-radius: 10px;
 }
 #division{
     color: aqua;
@@ -7,6 +12,8 @@ h1{
     text-decoration: underline;
     text-transform: uppercase;
     text-shadow:10px 10px crimson;
+    margin: 0 auto;
+
 }
 .one{
     color:red
@@ -17,4 +24,76 @@ h1{
 }
 .sweet{
     background-color: yellow;
+}
+.image-1{
+    width: 300px;
+    height:300px;
+    border-radius: 20%;
+    margin-left: 50px;
+}
+.image-2{
+    width:300px ;
+    height: 300px;
+    border-radius: 20%;
+    margin-left: 100px;
+}
+.image-3{
+    width: 300px;
+    height:300px;
+    border-radius: 20%;
+    margin-left: 100px;
+}
+p{
+    line-height:normal;
+    word-spacing:10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Permanent Marker', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Space Grotesk', sans-serif;
+font-weight: bold;
+}
+/* styling links */
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color:purple;
+}
+a:hover{
+    background-color: white;
+    font-size: 20px;
+}
+a:active{
+    text-transform: uppercase;
+}
+/* styling tables */
+table{
+    width: 100%;
+    border-collapse: separate;
+}
+table, th, td{
+    border: 1px solid whitesmoke;
+}
+th{
+    background-color: aqua;
+    color: red;
+}
+th{
+    text-align: center;
+    height:50px;
+}
+tbody tr:nth-child(odd) {
+    background-color: darkslategrey;
+}
+td{
+    padding: 10px;
+}
+/* centering div */
+div{
+    margin:0 auto;
+    width: 20%;
+    background-color: brown;
+    text-align: center;
+    color: #005555;
 }
